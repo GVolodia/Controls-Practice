@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C145C1D273D0CAF00DDF54B /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C145C1C273D0CAF00DDF54B /* Screenshot.png */; };
 		9CBEADD6273BA88400E62AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEADD5273BA88400E62AE7 /* AppDelegate.swift */; };
 		9CBEADD8273BA88400E62AE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEADD7273BA88400E62AE7 /* SceneDelegate.swift */; };
 		9CBEADDA273BA88400E62AE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEADD9273BA88400E62AE7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C145C1C273D0CAF00DDF54B /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		9CBEADD2273BA88400E62AE7 /* Controls Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Controls Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBEADD5273BA88400E62AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CBEADD7273BA88400E62AE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C145C1B273D0CA000DDF54B /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				9C145C1C273D0CAF00DDF54B /* Screenshot.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		9CBEADC9273BA88400E62AE7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		9CBEADD4273BA88400E62AE7 /* Controls Practice */ = {
 			isa = PBXGroup;
 			children = (
+				9C145C1B273D0CA000DDF54B /* Screenshot */,
 				9CBEADD5273BA88400E62AE7 /* AppDelegate.swift */,
 				9CBEADD7273BA88400E62AE7 /* SceneDelegate.swift */,
 				9CBEADD9273BA88400E62AE7 /* ViewController.swift */,
@@ -128,6 +139,7 @@
 				9CBEADE2273BA88500E62AE7 /* LaunchScreen.storyboard in Resources */,
 				9CBEADDF273BA88500E62AE7 /* Assets.xcassets in Resources */,
 				9CBEADDD273BA88400E62AE7 /* Main.storyboard in Resources */,
+				9C145C1D273D0CAF00DDF54B /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
