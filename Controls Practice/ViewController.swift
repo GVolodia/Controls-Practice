@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     
     /// Udpates switches from the number
     func updateSwitches() {
-//        var number = self.number
+        //        var number = self.number
         for `switch` in switches.reversed() {
             `switch`.isOn = Int(number) & `switch`.tag != 0
         }
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonPressed() {
-        number = (number + 1) % 256
+        number += 1
     }
     
     @IBAction func switchToggled(_ sender: UISwitch) {
@@ -76,7 +76,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func textFieldEdited() {
-        number = Int(textField.text ?? "") ?? 128
+        if (abs(Int(textField.text ?? "") ?? 128) <= 255) {
+        number = abs(Int(textField.text ?? "") ?? 128)
+        } else {
+            number = 0
+        }
     }
     
     @IBAction func screenTapped(_ sender: UITapGestureRecognizer) {
